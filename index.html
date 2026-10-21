@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hadi — Links</title>
+<meta name="description" content="All my links: portfolio, apps (ShieldChild, Workout Alarm, Wird), GitHub and Instagram." />
+<meta property="og:title" content="Hadi — Links" />
+<meta property="og:description" content="I build small, useful apps. Everything in one place." />
+<meta property="og:type" content="website" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231b1815'/><text x='50' y='70' font-size='56' text-anchor='middle' fill='%23f4f1ea' font-family='Georgia' font-style='italic'>H</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root { --ink:#1b1815; --paper:#f4f1ea; --muted:#6f6a61; --line:#1b1815; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:var(--paper); color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    min-height:100vh; display:flex; justify-content:center;
+    padding:56px 20px 48px;
+  }
+  main { width:100%; max-width:560px; }
+  .mono {
+    width:76px; height:76px; background:var(--ink); color:var(--paper);
+    font-family:'Source Serif 4',Georgia,serif; font-style:italic;
+    font-size:44px; display:flex; align-items:center; justify-content:center;
+    margin:0 auto 22px;
+  }
+  h1 {
+    font-family:'Source Serif 4',Georgia,serif; font-weight:600;
+    font-size:42px; text-align:center; letter-spacing:-0.01em;
+  }
+  .tag {
+    text-align:center; color:var(--muted); font-size:16px; line-height:1.55;
+    margin:10px auto 6px; max-width:420px;
+  }
+  .tag em { font-family:'Source Serif 4',Georgia,serif; }
+  .handle { text-align:center; font-size:14px; color:var(--muted); margin-bottom:38px; }
+  a.card {
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    border:1.5px solid var(--line); padding:18px 22px; margin-bottom:14px;
+    text-decoration:none; color:var(--ink); background:transparent;
+    transition:background .18s ease, color .18s ease, transform .18s ease;
+  }
+  a.card:hover, a.card:active { background:var(--ink); color:var(--paper); transform:translateY(-1px); }
+  .card .t { font-weight:600; font-size:17px; }
+  .card .d { font-size:13.5px; color:var(--muted); margin-top:3px; line-height:1.45; }
+  a.card:hover .d { color:#cfc9bd; }
+  .card .arr { font-size:20px; flex-shrink:0; }
+  .sec {
+    font-size:12px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--muted); margin:30px 0 14px; font-weight:600;
+  }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:40px; }
+  footer em { font-family:'Source Serif 4',Georgia,serif; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mono">H</div>
+  <h1>Hadi</h1>
+  <p class="tag">I build <em>small, useful apps</em> — privacy-first, no servers, no nonsense.</p>
+  <p class="handle">@howdyy90</p>
+
+  <p class="sec">Apps</p>
+  <a class="card" href="https://heyhadi.github.io/shieldchild/">
+    <span><span class="t">ShieldChild</span><div class="d">Parental control that runs 100% on-device. No account, no tracking.</div></span>
+    <span class="arr">→</span>
+  </a>
+  <a class="card" href="https://heyhadi.github.io/workout-alarm-app/">
+    <span><span class="t">Workout Alarm</span><div class="d">The alarm clock you can't snooze — do the reps to turn it off.</div></span>
+    <span class="arr">→</span>
+  </a>
+  <a class="card" href="https://heyhadi.github.io/wird/">
+    <span><span class="t">Wird</span><div class="d">Daily wird &amp; prayer-time companion with adhan audio.</div></span>
+    <span class="arr">→</span>
+  </a>
+
+  <p class="sec">Work &amp; code</p>
+  <a class="card" href="https://heyhadi.github.io/">
+    <span><span class="t">Portfolio</span><div class="d">Work, writing &amp; CV.</div></span>
+    <span class="arr">→</span>
+  </a>
+  <a class="card" href="https://github.com/heyhadi">
+    <span><span class="t">GitHub</span><div class="d">Open-source projects &amp; experiments.</div></span>
+    <span class="arr">→</span>
+  </a>
+  <a class="card" href="https://instagram.com/howdyy90">
+    <span><span class="t">Instagram</span><div class="d">Building in public — apps, process, lessons.</div></span>
+    <span class="arr">→</span>
+  </a>
+
+  <footer>Made with <em>too much coffee</em> in Bandung.</footer>
+</main>
+</body>
+</html>
